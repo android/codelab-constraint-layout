@@ -1,0 +1,204 @@
+<!--
+ Copyright 2016 Google Inc.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:src="@drawable/singapore"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="0dp"
+        android:id="@+id/header"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintLeft_creator="2"
+        app:layout_constraintTop_toTopOf="@+id/activity_main"
+        app:layout_constraintTop_creator="0"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintRight_creator="2"
+        app:layout_constraintBottom_toBottomOf="@+id/favorite"
+        app:layout_constraintBottom_margin="18dp"
+        app:layout_constraintBottom_creator="0"
+        app:layout_constraintTop_margin="0dp"
+        app:layout_constraintLeft_margin="0dp"
+        app:layout_constraintRight_margin="0dp"
+        android:contentDescription="@string/dummy"/>
+
+    <ImageView
+        android:src="@drawable/ic_star"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_editor_absoluteX="341dp"
+        app:layout_editor_absoluteY="117dp"
+        android:id="@+id/favorite"
+        android:background="@drawable/info_background"
+        android:padding="5dp"
+        app:layout_constraintTop_toTopOf="@+id/activity_main"
+        app:layout_constraintTop_margin="8dp"
+        app:layout_constraintTop_creator="0"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintRight_margin="16dp"
+        app:layout_constraintRight_creator="0"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
+        app:layout_constraintBottom_margin="8dp"
+        app:layout_constraintBottom_creator="0"
+        app:layout_constraintVertical_Bias="0.25"
+        android:contentDescription="@string/dummy"/>
+
+    <TextView
+        android:text="@string/singapore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="151dp"
+        android:id="@+id/title"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintLeft_margin="16dp"
+        app:layout_constraintLeft_creator="2"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintTop_margin="16dp"
+        app:layout_constraintTop_creator="2"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/camera_value"
+        android:ems="10"
+        app:layout_editor_absoluteX="75dp"
+        app:layout_editor_absoluteY="191dp"
+        android:id="@+id/cameraType"
+        app:layout_constraintLeft_toLeftOf="@+id/settings"
+        app:layout_constraintLeft_creator="0"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintRight_margin="16dp"
+        app:layout_constraintRight_creator="2"
+        app:layout_constraintLeft_margin="0dp"/>
+
+    <TextView
+        android:text="@string/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="204dp"
+        android:id="@+id/cameraLabel"
+        android:labelFor="@id/cameraType"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintLeft_margin="16dp"
+        app:layout_constraintLeft_creator="2"
+        app:layout_constraintTop_toTopOf="@+id/cameraType"
+        app:layout_constraintTop_creator="2"
+        app:layout_constraintBottom_toBottomOf="@+id/cameraType"
+        app:layout_constraintBottom_creator="2"
+        app:layout_constraintTop_margin="0dp"
+        app:layout_constraintBottom_margin="0dp"/>
+
+    <TextView
+        android:text="@string/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="253dp"
+        android:id="@+id/settingsLabel"
+        android:labelFor="@id/settings"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintLeft_margin="16dp"
+        app:layout_constraintLeft_creator="2"
+        app:layout_constraintTop_toTopOf="@+id/settings"
+        app:layout_constraintTop_creator="2"
+        app:layout_constraintBottom_toBottomOf="@+id/settings"
+        app:layout_constraintBottom_creator="2"
+        app:layout_constraintTop_margin="0dp"
+        app:layout_constraintBottom_margin="0dp"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/camera_settings"
+        android:ems="10"
+        app:layout_editor_absoluteX="75dp"
+        app:layout_editor_absoluteY="240dp"
+        android:id="@+id/settings"
+        app:layout_constraintLeft_toRightOf="@+id/settingsLabel"
+        app:layout_constraintLeft_margin="8dp"
+        app:layout_constraintLeft_creator="0"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintRight_margin="16dp"
+        app:layout_constraintRight_creator="0"/>
+
+    <Button
+        android:text="@string/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="289dp"
+        app:layout_editor_absoluteY="425dp"
+        android:id="@+id/upload"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintRight_margin="16dp"
+        app:layout_constraintRight_creator="2"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
+        app:layout_constraintBottom_margin="16dp"
+        app:layout_constraintBottom_creator="2"/>
+
+    <Button
+        android:text="@string/discard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="193dp"
+        app:layout_editor_absoluteY="425dp"
+        android:id="@+id/discard"
+        app:layout_constraintRight_toLeftOf="@+id/upload"
+        app:layout_constraintRight_margin="8dp"
+        app:layout_constraintRight_creator="0"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
+        app:layout_constraintBottom_margin="16dp"
+        app:layout_constraintBottom_creator="2"/>
+
+    <TextView
+        android:text="@string/singapore_decription"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="290dp"
+        android:id="@+id/description"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintLeft_margin="16dp"
+        app:layout_constraintLeft_creator="2"
+        app:layout_constraintTop_toBottomOf="@+id/settings"
+        app:layout_constraintTop_margin="8dp"
+        app:layout_constraintTop_creator="2"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintRight_margin="16dp"
+        app:layout_constraintRight_creator="0"
+        app:layout_constraintBottom_toTopOf="@+id/discard"
+        app:layout_constraintBottom_margin="8dp"
+        app:layout_constraintBottom_creator="0"
+        android:fadingEdge="vertical"
+        android:ellipsize="end"
+        android:textSize="12sp" />
+</android.support.constraint.ConstraintLayout>
