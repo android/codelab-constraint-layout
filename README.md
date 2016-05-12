@@ -1,4 +1,3 @@
-<<<<<<< 288d4d21eae1a6d0d6de2fffd6396fa42c5ae98f
 # Constraint Layout Codelab
 
 This folder contains the source code for a Google I/O 2016 codelab.
