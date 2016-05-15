@@ -13,5 +13,6 @@
         app:layout_editor_absoluteX="100dp"
         app:layout_editor_absoluteY="68dp"
         android:id="@+id/imageView"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/dummy" />
 </android.support.constraint.ConstraintLayout>
