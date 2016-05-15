@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_editor_absoluteX="0dp"
-    app:layout_editor_absoluteY="81dp"
-    android:id="@+id/android.support.constraint.ConstraintLayout">
+    app:layout_editor_absoluteY="81dp">
 
     <ImageView
         android:src="@drawable/singapore"
