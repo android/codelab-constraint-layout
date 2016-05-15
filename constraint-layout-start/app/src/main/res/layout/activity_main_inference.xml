@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="80dp">
+
+    <ImageView
+        android:src="@drawable/singapore"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="0dp"
+        android:id="@+id/header"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/dummy" />
+
+    <ImageView
+        android:src="@drawable/ic_star"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_editor_absoluteX="359dp"
+        app:layout_editor_absoluteY="104dp"
+        android:id="@+id/favorite"
+        android:background="@drawable/info_background"
+        android:padding="5dp"
+        android:contentDescription="@string/dummy" />
+
+    <TextView
+        android:text="@string/singapore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="140dp"
+        android:id="@+id/title"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/camera_value"
+        android:ems="10"
+        app:layout_editor_absoluteX="73dp"
+        app:layout_editor_absoluteY="176dp"
+        android:id="@+id/cameraType" />
+
+    <TextView
+        android:text="@string/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="189dp"
+        android:id="@+id/cameraLabel"
+        android:labelFor="@+id/cameraType" />
+
+    <TextView
+        android:text="@string/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="238dp"
+        android:id="@+id/settingsLabel"
+        android:labelFor="@+id/settings" />
+
+    <EditText
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/camera_settings"
+        android:ems="10"
+        app:layout_editor_absoluteX="73dp"
+        app:layout_editor_absoluteY="225dp"
+        android:id="@+id/settings" />
+
+    <Button
+        android:text="@string/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="307dp"
+        app:layout_editor_absoluteY="538dp"
+        android:id="@+id/upload" />
+
+    <Button
+        android:text="@string/discard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="211dp"
+        app:layout_editor_absoluteY="538dp"
+        android:id="@+id/discard"
+        android:elevation="0dp" />
+
+    <TextView
+        android:text="@string/singapore_decription"
+        android:layout_width="379dp"
+        android:layout_height="256dp"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="274dp"
+        android:id="@+id/description"
+        android:fadingEdge="vertical"
+        android:ellipsize="end"
+        android:textSize="15sp" />
+</android.support.constraint.ConstraintLayout>
