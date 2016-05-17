@@ -82,7 +82,7 @@
         android:id="@+id/textView"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="207dp"
-        android:labelFor="@id/cameraEdit"/>
+        android:labelFor="@+id/cameraEdit"/>
 
     <TextView
         android:text="@string/settings"
@@ -93,7 +93,7 @@
         android:id="@+id/textView2"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="255dp"
-        android:labelFor="@id/settingsEdit"/>
+        android:labelFor="@+id/settingsEdit"/>
 
     <EditText
         android:layout_width="214dp"
