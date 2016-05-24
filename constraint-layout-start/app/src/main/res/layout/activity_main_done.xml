@@ -200,7 +200,7 @@
         tools:layout_constraintBaseline_creator="0" />
 
     <TextView
-        android:text="@string/singapore_decription"
+        android:text="@string/singapore_description"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_editor_absoluteX="16dp"
