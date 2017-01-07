@@ -71,7 +71,8 @@
         android:elevation="19dp"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="160dp" />
+        tools:layout_editor_absoluteY="160dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:text="@string/camera"
