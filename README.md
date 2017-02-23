@@ -1,6 +1,6 @@
 # Constraint Layout Codelab
 
-This folder contains the source code for a Google I/O 2016 codelab.
+This folder contains the source code for the [ConstraintLayout codelab](https://codelabs.developers.google.com/codelabs/constraint-layout/)
 
 ### License
 
