@@ -157,11 +157,4 @@
         app:layout_constraintStart_toEndOf="@+id/cameraLabel"
         android:layout_marginStart="8dp" />
 
-    <android.support.constraint.Barrier
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/barrier"
-        app:barrierDirection="left"
-        app:constraint_referenced_ids="settings,cameraType" />
-
 </android.support.constraint.ConstraintLayout>
