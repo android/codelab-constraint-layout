@@ -14,5 +14,5 @@
         app:layout_editor_absoluteY="68dp"
         android:id="@+id/imageView"
         android:scaleType="centerCrop"
-        android:contentDescription="@string/dummy" />
+        android:contentDescription="@string/placeholder" />
 </android.support.constraint.ConstraintLayout>
