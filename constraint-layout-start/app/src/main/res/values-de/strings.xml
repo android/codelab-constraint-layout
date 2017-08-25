@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Layout Codelab</string>
     <string name="singapore_description">Singapur offiziell die Republik Singapur, und oft als die Lion City, die Garden City und die Red Dot bezeichnet, ist eine globale Stadt in Südostasien und der Welt \'s einzige Insel Stadt-Staat. Es liegt ein Grad (137 km) nördlich des Äquators, an der südlichsten Spitze des kontinentalen Asiens und der Halbinsel Malaysia mit den indonesischen Riau Inseln im Süden. Das Gebiet von Singapur besteht aus der diamantförmigen Hauptinsel und 62 Inselchen.</string>
-    <string name="dummy">dummy</string>
+    <string name="placeholder">dummy</string>
     <string name="discard">Verwerfen</string>
     <string name="upload">Hochladen</string>
     <string name="camera_settings">ƒ/4 16s ISO 200</string>
