@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.google.googleio"
         minSdkVersion 22
-        targetSdkVersion 25
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -19,7 +19,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support.constraint:constraint-layout:1.1.0-beta1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
