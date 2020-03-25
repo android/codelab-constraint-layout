@@ -10,4 +10,5 @@
     <string name="camera">Kamera</string>
     <string name="camera_value">Leica M Typ 240</string>
     <string name="singapore">Singapur</string>
+    <string name="fab_content_description">Stern fabelhaft</string>
 </resources>
