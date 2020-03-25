@@ -40,8 +40,8 @@
 
     <ImageView
         android:src="@drawable/ic_star"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         app:layout_editor_absoluteX="359dp"
         app:layout_editor_absoluteY="104dp"
         android:id="@+id/favorite"
@@ -105,6 +105,7 @@
         android:id="@+id/settings"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/camera_settings"
@@ -123,6 +124,7 @@
         android:id="@+id/cameraType"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
