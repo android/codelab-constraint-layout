@@ -27,10 +27,12 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-          
+
+    # Skipping app:lintDebug as the the code's starting state contains lint errors that are
+    # corrected when implementing the codelab.
     - name: Build and check
       working-directory: constraint-layout-start
-      run: ./gradlew assembleDebug assembleDebugAndroidTest app:lintDebug testDebug
+      run: ./gradlew assembleDebug assembleDebugAndroidTest testDebug
 
     - name: Upload build reports
       if: always()
